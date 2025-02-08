@@ -1,0 +1,29 @@
+.card-container {
+    min-width: 300px;
+    max-width: 400px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #31313f;
+}
+
+.item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author {
+    text-transform: capitalize;
+}
+
+.url a {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 3;
+    color: rgb(255, 255, 255);
+}
